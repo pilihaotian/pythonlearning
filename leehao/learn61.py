@@ -1,6 +1,5 @@
 # 摇骰子游戏
 import random
-import math
 
 i = 0
 j = 0

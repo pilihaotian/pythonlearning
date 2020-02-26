@@ -1,6 +1,5 @@
 # 一元运算符重载
 # neg pos invert
-# isub -=
 class MyList:
 
     def __init__(self, iterator):

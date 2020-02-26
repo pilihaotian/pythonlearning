@@ -1,5 +1,3 @@
-# 输入结果是什么
-
 # Demo1
 # Pyton
 for letter in 'Python':
