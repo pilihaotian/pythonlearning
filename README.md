@@ -274,4 +274,7 @@ getitem setitem delitem 重载。
 集合内部用list存储。  
 ## learn125.py  
 sql操作，完成对数据库的增删改查操作。  
-
+## learn126_1.py  
+网络编程socket，服务端的实现。  
+## learn126_2.py  
+网络编程socket，客户端的实现。并完成与服务端的循环交互。  
