@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-# -*-coding:utf-8 -*-
+# Socket 客户端 TCP协议
 from socket import *
 import time
 
@@ -16,7 +15,7 @@ while True:
     data1 = '[%s]:%s' % (time.strftime("%Y-%m-%d %X"), data)
     tcpCliSock.send(data1.encode('utf-8'))  # 发送消息
     msg = tcpCliSock.recv(BUFSIZ)  # 读取消息
-    if not data:
+    if not msg:
         break
     print(msg.decode('utf-8'))
 tcpCliSock.close()  # 关闭客户端
