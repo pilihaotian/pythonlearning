@@ -278,3 +278,26 @@ sql操作，完成对数据库的增删改查操作。
 网络编程socket，服务端的实现。  
 ## learn126_2.py  
 网络编程socket，客户端的实现。并完成与服务端的循环交互发送信息。  
+## learn127_1.py   
+UDP协议 Socket  服务端实现  
+## learn127_2.py    
+UDP协议 Socket  客户端1实现，并完成与服务端的循环交互发送信息。  
+## learn127_3.py    
+网络编程socket，客户端2，和客户端1一样。   
+## learn128.py    
+tcp和udp的区别。  
+## learn129.py    
+socket的一些内部方法。  
+## learn130.py    
+socket broadcast 广播 接收端（可多个）。
+## learn130_1.py    
+broadcast 广播 发送端
+一个发送端可以发送至多个接受端，一般在一个网段内    
+## learn131.py    
+socket http协议
+http server
+启动服务后，在浏览器中输入：127.0.0.1:9999  
+结果：输出请求头，并将服务器的信息返回给客户端（浏览器）  
+  
+
+
